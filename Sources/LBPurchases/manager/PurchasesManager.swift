@@ -33,6 +33,8 @@ public class PurchasesManager: LBFeature {
     /**Debug settings**/
     public var __STATIC = false
     
+    public var membershipScreenPresented = false
+    
     public var isSubscribed: Bool {
         subscriptionState.subscriptionPeriod == .Active
     }
