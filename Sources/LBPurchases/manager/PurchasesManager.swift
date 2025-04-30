@@ -43,6 +43,10 @@ public class PurchasesManager: LBFeature {
         subscriptionState.hasTrial
     }
     
+    public init() {
+
+    }
+    
     public func fetchSubscriptionState(_ entitlement: String = "") async {
         guard !__STATIC else { return }
         let customerInfo = try? await Purchases.shared.customerInfo()
