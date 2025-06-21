@@ -18,7 +18,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(name: "RevenueCat", url: "https://github.com/RevenueCat/purchases-ios.git", from: "5.22.1"),
+        .package(name: "RevenueCat", url: "https://github.com/RevenueCat/purchases-ios.git", from: "5.29.0"),
         .package(name: "LBFoundation", url: "https://github.com/LuisAlvarez12/LBFoundation.git", from: "2.0.5"),
     ],
     targets: [
